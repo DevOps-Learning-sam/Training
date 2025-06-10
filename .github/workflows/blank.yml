@@ -34,7 +34,7 @@ jobs:
 
       - name: Duplicate jindex java
         run: |
-          if[ -f 'jindex java' ]; then
+          if[ -f "jindex java" ]; then
             cp 'jindex java' index.java
             echo "file duplicated"
           else
